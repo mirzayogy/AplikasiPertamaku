@@ -6,20 +6,22 @@
     android:layout_height="match_parent"
     tools:context="io.github.mirzayogy.aplikasipertamaku.MainActivity">
 
+<<<<<<< HEAD
     <EditText
         android:id="@+id/editText"
         android:layout_width="0dp"
+=======
+    <TextView
+        android:layout_width="wrap_content"
+>>>>>>> parent of 7cf1e8d... Build a simple user interface
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:hint="@string/edit_message"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
@@ -32,4 +34,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/editText" />
+=======
+>>>>>>> parent of 7cf1e8d... Build a simple user interface
 </android.support.constraint.ConstraintLayout>
